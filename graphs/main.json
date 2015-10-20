@@ -2,12 +2,25 @@
     "properties": {
         "name": "main",
         "environment": {
-            "type": "noflo-browser"
-        }
+            "type": "noflo-browser",
+            "content": ""
+        },
+        "icon": ""
     },
     "inports": {},
     "outports": {},
     "groups": [],
-    "processes": {},
+    "processes": {
+        "core/Drop_5lbfb": {
+            "component": "core/Drop",
+            "metadata": {
+                "label": "core/Drop",
+                "x": 334,
+                "y": 100,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
     "connections": []
 }
