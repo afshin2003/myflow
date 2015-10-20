@@ -2,21 +2,19 @@
     "properties": {
         "name": "main",
         "environment": {
-            "type": "noflo-browser",
-            "content": ""
-        },
-        "icon": ""
+            "type": "noflo-browser"
+        }
     },
     "inports": {},
     "outports": {},
     "groups": [],
     "processes": {
-        "OUT": {
-            "component": "core/Output",
+        "Split1": {
+            "component": "core/Split",
             "metadata": {
-                "label": "OUT",
-                "x": 72,
-                "y": 36,
+                "label": "Split1",
+                "x": 432,
+                "y": 252,
                 "width": 72,
                 "height": 72
             }
