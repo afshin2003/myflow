@@ -10,32 +10,6 @@
     "inports": {},
     "outports": {},
     "groups": [],
-    "processes": {
-        "core/Callback_5zrtd": {
-            "component": "core/Callback",
-            "metadata": {
-                "voice": "ivr/greeting.wav"
-                
-            }
-        },
-        "core/Merge_2apr8": {
-            "component": "core/Merge",
-            "metadata": {
-                
-            }
-        }
-    },
-    "connections": [
-        {
-            "src": {
-                "process": "core/Callback_5zrtd",
-                "port": "error"
-            },
-            "tgt": {
-                "process": "core/Merge_2apr8",
-                "port": "in"
-            },
-            "metadata": {}
-        }
-    ]
+    "processes": {},
+    "connections": []
 }
