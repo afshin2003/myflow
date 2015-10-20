@@ -14,21 +14,14 @@
         "core/Callback_5zrtd": {
             "component": "core/Callback",
             "metadata": {
-                "label": "core/Callback",
-                "x": 311.37905341890007,
-                "y": 18.4339591121548,
-                "width": 72,
-                "height": 72
+                "voice": "ivr/greeting.wav"
+                
             }
         },
         "core/Merge_2apr8": {
             "component": "core/Merge",
             "metadata": {
-                "label": "core/Merge",
-                "x": 432,
-                "y": 144,
-                "width": 72,
-                "height": 72
+                
             }
         }
     },
