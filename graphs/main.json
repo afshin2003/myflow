@@ -11,7 +11,38 @@
     "outports": {},
     "groups": [],
     "processes": {
-        
+        "core/Callback_5zrtd": {
+            "component": "core/Callback",
+            "metadata": {
+                "label": "core/Callback",
+                "x": 311.37905341890007,
+                "y": 18.4339591121548,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "core/Merge_2apr8": {
+            "component": "core/Merge",
+            "metadata": {
+                "label": "core/Merge",
+                "x": 432,
+                "y": 144,
+                "width": 72,
+                "height": 72
+            }
+        }
     },
-    "connections": []
+    "connections": [
+        {
+            "src": {
+                "process": "core/Callback_5zrtd",
+                "port": "error"
+            },
+            "tgt": {
+                "process": "core/Merge_2apr8",
+                "port": "in"
+            },
+            "metadata": {}
+        }
+    ]
 }
