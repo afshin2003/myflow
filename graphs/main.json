@@ -11,16 +11,7 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "core/Drop_5lbfb": {
-            "component": "core/Drop",
-            "metadata": {
-                "label": "core/Drop",
-                "x": 334,
-                "y": 100,
-                "width": 72,
-                "height": 72
-            }
-        }
+        
     },
     "connections": []
 }
