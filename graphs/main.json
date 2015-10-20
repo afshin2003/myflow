@@ -10,6 +10,17 @@
     "inports": {},
     "outports": {},
     "groups": [],
-    "processes": {},
+    "processes": {
+        "OUT": {
+            "component": "core/Output",
+            "metadata": {
+                "label": "OUT",
+                "x": 72,
+                "y": 36,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
     "connections": []
 }
