@@ -2,12 +2,14 @@
     "properties": {
         "name": "sub1",
         "environment": {
-            "type": "noflo-browser"
-        }
+            "type": "noflo-browser",
+            "content": ""
+        },
+        "icon": ""
     },
     "inports": {
         "in": {
-            "process": "core/Output_hdm38",
+            "process": "Print",
             "port": "in",
             "metadata": {
                 "x": 468,
@@ -20,10 +22,10 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "core/Output_hdm38": {
+        "Print": {
             "component": "core/Output",
             "metadata": {
-                "label": "core/Output",
+                "label": "Print",
                 "x": 576,
                 "y": 288,
                 "width": 72,

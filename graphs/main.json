@@ -11,20 +11,20 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "core/Kick_bzf9h": {
+        "Start": {
             "component": "core/Kick",
             "metadata": {
-                "label": "core/Kick",
+                "label": "Start",
                 "x": 324,
                 "y": 288,
                 "width": 72,
                 "height": 72
             }
         },
-        "rightel/sub1_yug1y": {
+        "End": {
             "component": "rightel/sub1",
             "metadata": {
-                "label": "rightel/sub1",
+                "label": "End",
                 "x": 468,
                 "y": 216,
                 "width": 72,
@@ -35,11 +35,11 @@
     "connections": [
         {
             "src": {
-                "process": "core/Kick_bzf9h",
+                "process": "Start",
                 "port": "out"
             },
             "tgt": {
-                "process": "rightel/sub1_yug1y",
+                "process": "End",
                 "port": "in"
             },
             "metadata": {}
