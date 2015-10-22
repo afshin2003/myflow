@@ -2,23 +2,47 @@
     "properties": {
         "name": "main",
         "environment": {
-            "type": "noflo-browser"
-        }
+            "type": "noflo-browser",
+            "content": ""
+        },
+        "icon": ""
     },
     "inports": {},
     "outports": {},
     "groups": [],
     "processes": {
-        "Split1": {
-            "component": "core/Split",
+        "core/Kick_bzf9h": {
+            "component": "core/Kick",
             "metadata": {
-                "label": "Split1",
-                "x": 432,
-                "y": 252,
+                "label": "core/Kick",
+                "x": 324,
+                "y": 288,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "rightel/sub1_yug1y": {
+            "component": "rightel/sub1",
+            "metadata": {
+                "label": "rightel/sub1",
+                "x": 468,
+                "y": 216,
                 "width": 72,
                 "height": 72
             }
         }
     },
-    "connections": []
+    "connections": [
+        {
+            "src": {
+                "process": "core/Kick_bzf9h",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "rightel/sub1_yug1y",
+                "port": "in"
+            },
+            "metadata": {}
+        }
+    ]
 }

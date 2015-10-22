@@ -1,0 +1,35 @@
+{
+    "properties": {
+        "name": "sub1",
+        "environment": {
+            "type": "noflo-browser"
+        }
+    },
+    "inports": {
+        "in": {
+            "process": "core/Output_hdm38",
+            "port": "in",
+            "metadata": {
+                "x": 468,
+                "y": 288,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "core/Output_hdm38": {
+            "component": "core/Output",
+            "metadata": {
+                "label": "core/Output",
+                "x": 576,
+                "y": 288,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": []
+}
