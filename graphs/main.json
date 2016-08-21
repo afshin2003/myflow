@@ -1,4 +1,5 @@
 {
+    "caseSensitive": false,
     "properties": {
         "name": "main",
         "environment": {
@@ -20,29 +21,7 @@
                 "width": 72,
                 "height": 72
             }
-        },
-        "End": {
-            "component": "rightel/sub1",
-            "metadata": {
-                "label": "End",
-                "x": 468,
-                "y": 216,
-                "width": 72,
-                "height": 72
-            }
         }
     },
-    "connections": [
-        {
-            "src": {
-                "process": "Start",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "End",
-                "port": "in"
-            },
-            "metadata": {}
-        }
-    ]
+    "connections": []
 }
